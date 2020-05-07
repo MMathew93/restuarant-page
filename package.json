@@ -1,0 +1,23 @@
+{
+  "name": "restuarant-page",
+  "version": "1.0.0",
+  "description": "using npm and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMathew93/restuarant-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMathew93/restuarant-page/issues"
+  },
+  "homepage": "https://github.com/MMathew93/restuarant-page#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
