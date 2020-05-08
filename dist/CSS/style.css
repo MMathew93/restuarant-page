@@ -114,7 +114,7 @@ header > ul {
 
 .hero {
   background-image: url("../CSS/images/light-blur-beer-mockup-5-(1820)-.jpg");
-  height: 90%;
+  height: 89%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,12 +123,32 @@ header > ul {
 
 footer {
   background-color: #361f14;
-  min-height: 3%;
-  font-size: 1rem;
+  min-height: 4%;
   color: #DD7841;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-text {
   padding-top: 5px;
+  font-size: 12px;
+  margin: 0 25px;
+}
+
+.fab {
+  color: #DD7841;
+}
+
+.fab:hover {
+  color: #498197;
+}
+
+#icon-box {
+  margin: 0 50px;
+  display: flex;
+  min-width: 250px;
+  justify-content: space-between;
+  font-size: 2.3rem;
 }
