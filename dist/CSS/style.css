@@ -8,7 +8,7 @@
 /* Remove default padding */
 ul[class],
 ol[class] {
-  padding: 0;
+  padding: 1%;
 }
 
 /* Remove default margin */
@@ -35,8 +35,9 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: Brewmaster Gothic Round, Roboto, Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  background-color: #DD7841;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -52,7 +53,7 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img {
-  max-width: 100%;
+  max-width: 50%;
   display: block;
 }
 
@@ -74,18 +75,60 @@ select {
   }
 }
 
+a {
+  text-decoration: none;
+  color: #308CB0
+}
+
+a:hover {
+  color: #498197;
+}
+
 #content-wrapper {
-  background-color:#DD7841;
-  min-height: 100%;
+  height: 100vh;
 }
 
 header {
-  min-height: 50%;
-  background-color: black;
+  background-color: #361f14;
+  min-height: 6%;
+  font-size: 1.5rem;
+  color: #DD7841;
+  text-align: center;
+}
+
+header > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar> li > a {
+  text-decoration: none;
+  color: #DD7841;
+}
+
+.nav-bar> li > a:hover {
+  text-decoration: none;
+  color: #498197;
 }
 
 .hero {
-  background-color: blue;
-  width: 100%;
-  height:85px;
+  background-image: url("../CSS/images/light-blur-beer-mockup-5-(1820)-.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative
+}
+
+footer {
+  background-color: #361f14;
+  min-height: 3%;
+  font-size: 1rem;
+  color: #DD7841;
+  text-align: center;
+}
+
+.footer-text {
+  padding-top: 5px;
 }
