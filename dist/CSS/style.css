@@ -83,3 +83,9 @@ header {
   min-height: 50%;
   background-color: black;
 }
+
+.hero {
+  background-color: blue;
+  width: 100%;
+  height:85px;
+}
