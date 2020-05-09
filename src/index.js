@@ -1,6 +1,6 @@
-import { loadHeader, loadHero, loadFooter, navButtons } from './initialpage.js'
+import { loadHomePageHeader, loadHero, loadFooter, navButtons } from './initialpage.js'
 
-loadHeader()
+loadHomePageHeader()
 loadHero()
 loadFooter()
 navButtons()

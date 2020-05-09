@@ -1,5 +1,7 @@
+import { loadAbout } from './about.js'
+
 //Header Loader
-const loadHeader = (function () {
+const loadHomePageHeader = (function () {
     const content= document.getElementById('content')
     const contentWrapper= document.createElement('div')
     contentWrapper.id = "content-wrapper"
@@ -53,10 +55,10 @@ const navButtons= (function () {
     const events_button= getElementById('Events')
     const menu_button= getElementById('Menu')
     const contactUs_button= getElementById('Contact Us')
-    about_button.addEventListener('click', about)
+    about_button.addEventListener('click', loadAbout)
     events_button.addEventListener('click', events)
     menu_button.addEventListener('click', menu)
     contactUs_button.addEventListener('click', contactUs)
 })();
 
-export { loadHeader, loadHero, loadFooter, navButtons }
+export { loadHomePageHeader, loadHero, loadFooter, navButtons }

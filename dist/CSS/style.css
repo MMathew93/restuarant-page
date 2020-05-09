@@ -8,7 +8,7 @@
 /* Remove default padding */
 ul[class],
 ol[class] {
-  padding: 1%;
+  padding: .9%;
 }
 
 /* Remove default margin */
@@ -20,7 +20,6 @@ h4,
 p,
 ul[class],
 ol[class],
-li,
 figure,
 figcaption,
 blockquote,
@@ -84,6 +83,10 @@ a:hover {
   color: #498197;
 }
 
+li {
+  margin: 0 25px;
+}
+
 #content-wrapper {
   height: 100vh;
 }
@@ -97,13 +100,12 @@ header {
 
 header > ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .nav-bar> li{
   text-decoration: none;
-  height: 61px;
   color: #DD7841;
 }
 
@@ -125,7 +127,7 @@ header > ul {
 
 .hero {
   background-image: url("../CSS/images/light-blur-beer-mockup-5-(1820)-.jpg");
-  height: 86%;
+  height: 88%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,4 +164,29 @@ footer {
   min-width: 250px;
   justify-content: space-between;
   font-size: 2.3rem;
+}
+
+
+/*Non-Homepage Section*/
+#non-homepage {
+  justify-content: space-between;
+}
+
+#nonHomepageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  color:#308CB0;
+  margin: 0 50px;
+  font-size: 50px;
+}
+/*About Module Section */
+
+#aboutHero {
+  height: 88%;
+  background-color: #112932;
+  color: white;
 }
