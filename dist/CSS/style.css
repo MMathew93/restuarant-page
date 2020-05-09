@@ -90,8 +90,7 @@ a:hover {
 
 header {
   background-color: #361f14;
-  min-height: 6%;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #DD7841;
   text-align: center;
 }
@@ -102,19 +101,31 @@ header > ul {
   align-items: center;
 }
 
-.nav-bar> li > a {
+.nav-bar> li{
   text-decoration: none;
+  height: 61px;
   color: #DD7841;
 }
 
-.nav-bar> li > a:hover {
+.nav-bar> li:hover{
   text-decoration: none;
   color: #498197;
 }
 
+/*.nav-bar> li> a:hover:after {
+    box-sizing: inherit;
+    content: "";
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 4px;
+    background-color: #498197;
+}
+*/
+
 .hero {
   background-image: url("../CSS/images/light-blur-beer-mockup-5-(1820)-.jpg");
-  height: 89%;
+  height: 86%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,12 +134,12 @@ header > ul {
 
 footer {
   background-color: #361f14;
-  min-height: 4%;
   color: #DD7841;
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 5%;
 }
 
 .footer-text {
