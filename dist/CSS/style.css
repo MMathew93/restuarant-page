@@ -85,6 +85,7 @@ a:hover {
 
 li {
   margin: 0 25px;
+  cursor: pointer;
 }
 
 #content-wrapper {
@@ -185,7 +186,7 @@ footer {
 }
 /*About Module Section */
 
-#aboutHero {
+#aboutSection {
   height: 88%;
   background-color: #112932;
   color: white;
