@@ -135,6 +135,17 @@ header > ul {
   position: relative
 }
 
+#bar-logo {
+  background-image: url("../CSS/images/bar_logo.png");
+  height: 85%;
+  width: 35%;
+  transform: rotate(-20deg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0 0 70px;
+}
+
 footer {
   background-color: #361f14;
   color: #DD7841;

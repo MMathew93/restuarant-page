@@ -25,6 +25,9 @@ const loadHero = function () {
     const contentWrapper = document.getElementById('content-wrapper')
     const hero = document.createElement('div')
     hero.className = "hero"
+    const barLogo= document.createElement('div')
+    barLogo.id= 'bar-logo'
+    hero.appendChild(barLogo)
     contentWrapper.appendChild(hero)
     content.appendChild(contentWrapper)
 };
