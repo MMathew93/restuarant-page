@@ -71,7 +71,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
+/*##############################################################################*/
+/*########################   ACTUAL WEB   ########################################*/
+/*############################  CSS  ############################################*/
+/*##############################################################################*/
 a {
   text-decoration: none;
   color: #308CB0;
@@ -103,26 +106,15 @@ header > ul {
   align-items: center;
 }
 
-.nav-bar> li{
+.nav-bar > li {
   text-decoration: none;
   color: #DD7841;
 }
 
-.nav-bar> li:hover{
+.nav-bar > li:hover {
   text-decoration: none;
   color: #498197;
 }
-
-/*.nav-bar> li> a:hover:after {
-    box-sizing: inherit;
-    content: "";
-    display: block;
-    margin: auto;
-    width: 50px;
-    height: 4px;
-    background-color: #498197;
-}
-*/
 
 .hero {
   background-image: url("../CSS/images/light-blur-beer-mockup-5-(1820)-.jpg");
@@ -177,8 +169,9 @@ footer {
   font-size: 2.3rem;
 }
 
-
+/*#####################*/
 /*Non-Homepage Section*/
+/*#####################*/
 #non-homepage {
   justify-content: space-between;
 }
@@ -190,12 +183,18 @@ footer {
 }
 
 #logo {
-  color:#308CB0;
+  color: #308CB0;
   margin: 0 50px;
   font-size: 50px;
 }
-/*About Module Section */
 
+#logo:hover {
+  color: #DD7841;
+  cursor: pointer;
+}
+/*######################*/
+/*About Module Section */
+/*#####################*/
 .aboutSection {
   height: 88%;
   background-color: #112932;
@@ -205,17 +204,19 @@ footer {
 
 .aboutSection > h1 {
   font-size: 100px;
+  text-decoration: underline;
   padding: 150px;
   margin: 0;
 }
 
-.aboutSection > p { 
+.aboutSection > p {
   margin: 0 auto;
   width: 50%;
   font-size: 30px;
 }
-
+/*#######################*/
 /*Contact Module Section */
+/*#######################*/
 #form-wrapper {
   height: 88%;
   display: flex;
@@ -251,4 +252,80 @@ textarea {
   text-align: center;
   padding: 0;
   cursor: pointer
+}
+
+/*######################*/
+/*Event Module Section */
+/*#####################*/
+.eventSection {
+  height: 88%;
+  background-color: #112932;
+  color: white;
+  text-align: center;
+  margin: 0
+}
+
+.eventSection > h1 {
+  font-size: 100px;
+  text-decoration: underline;
+  padding: 150px;
+  margin: 0;
+}
+
+.eventSection > p {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 30px;
+}
+
+/*######################*/
+/*Menu Module Section */
+/*#####################*/
+.menu-wrapper {
+  background-image: url("../CSS/images/menu-background.jpg");
+  height: 88%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.menu {
+  display:flex;
+  margin: 0;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.subMenu {
+  margin: 100px;
+}
+
+.subMenu > h1 {
+  font-size: 40px;
+  text-decoration: underline;
+  margin: 0 auto;
+  text-shadow: 2px 2px #112932;
+}
+
+.subMenu > p {
+  font-size: 25px;
+  padding:25px;
+  text-align: left;
+  margin-left: 20px;
+  text-shadow: 2px 2px #112932;
+}
+
+#food {
+  border-right: 5px solid white;
+  margin-right: 25px;
+}
+
+#food > p {
+  margin-right: 25px;
+}
+
+#drink {
+  margin-left: 25px;
 }

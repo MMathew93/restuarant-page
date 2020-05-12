@@ -1,5 +1,10 @@
 import {loadAbout} from './about'
+
 import {loadContact} from './contact'
+
+import {loadEvents} from './events'
+
+import {loadMenu} from './menu'
 
 //Header Loader
 const loadHomePageHeader = function () {
@@ -26,8 +31,8 @@ const loadHero = function () {
     const contentWrapper = document.getElementById('content-wrapper')
     const hero = document.createElement('div')
     hero.className = "hero"
-    const barLogo= document.createElement('div')
-    barLogo.id= 'bar-logo'
+    const barLogo = document.createElement('div')
+    barLogo.id = 'bar-logo'
     hero.appendChild(barLogo)
     contentWrapper.appendChild(hero)
     content.appendChild(contentWrapper)
@@ -85,16 +90,27 @@ const clear = function () {
     content.innerHTML = ''
 }
 
+//loadHomepage
+const homePage= function () {
+    clear()
+    loadHomePageHeader()
+    loadHero()
+    loadFooter()
+    navButtons()
+}
+
 //Navigation Buttons
 const navButtons = function () {
     let about_button = document.getElementById('About')
     let events_button = document.getElementById('Events')
     let menu_button = document.getElementById('Menu')
+    let logo_button = document.getElementById('logo')
     let contactUs_button = document.getElementById('Contact Us')
     about_button.addEventListener('click', loadAbout)
-    events_button.addEventListener('click', ()=> {alert('hello')})
-    menu_button.addEventListener('click', ()=> {alert('hello')})
+    events_button.addEventListener('click', loadEvents)
+    menu_button.addEventListener('click', loadMenu)
     contactUs_button.addEventListener('click', loadContact)
+    logo_button.addEventListener('click', homePage)
 };
 
 export {loadHomePageHeader, loadHero, loadFooter, navButtons, newHeader, clear}
