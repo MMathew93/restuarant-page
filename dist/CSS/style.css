@@ -214,3 +214,41 @@ footer {
   width: 50%;
   font-size: 30px;
 }
+
+/*Contact Module Section */
+#form-wrapper {
+  height: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  max-height: 900px;
+}
+
+input {
+  height: 55px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+textarea {
+  height: 100px;
+  padding-left: 20px;
+  min-height: 100px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+#submitButton {
+  height: 50px;
+  margin: 50px auto;
+  width: 200px;
+  text-align: center;
+  padding: 0;
+  cursor: pointer
+}

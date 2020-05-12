@@ -1,4 +1,5 @@
 import {loadAbout} from './about'
+import {loadContact} from './contact'
 
 //Header Loader
 const loadHomePageHeader = function () {
@@ -93,7 +94,7 @@ const navButtons = function () {
     about_button.addEventListener('click', loadAbout)
     events_button.addEventListener('click', ()=> {alert('hello')})
     menu_button.addEventListener('click', ()=> {alert('hello')})
-    contactUs_button.addEventListener('click', ()=> {alert('hello')})
+    contactUs_button.addEventListener('click', loadContact)
 };
 
 export {loadHomePageHeader, loadHero, loadFooter, navButtons, newHeader, clear}
