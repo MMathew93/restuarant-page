@@ -222,13 +222,29 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("../CSS/images/light-blur-beer-mockup-1-(2340)-.jpg");
+  height: 88%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#formBG {
+  background-color: rgb(26, 26, 26, 0.8);
+    height: 80%;
+    width: 50%;
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 0px;
+    padding: 100px;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  max-height: 900px;
+  width: 90%;
 }
 
 input {
@@ -238,9 +254,9 @@ input {
 }
 
 textarea {
-  height: 100px;
+  height: 500px;
   padding-left: 20px;
-  min-height: 100px;
+  min-height: 350px;
   min-width: 100%;
   max-width: 100%;
 }

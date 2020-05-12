@@ -8,6 +8,8 @@ const loadContact = function () {
   const contentWrapper = document.getElementById('content-wrapper')
   const formWrapper = document.createElement('div')
   formWrapper.id = "form-wrapper"
+  const formBG= document.createElement('div')
+  formBG.id= 'formBG'
   const contactForm = document.createElement('form')
   //Name Attribute
   const inputName = document.createElement('input')
@@ -57,7 +59,8 @@ const loadContact = function () {
   contactForm.appendChild(select)
   contactForm.appendChild(textArea)
   contactForm.appendChild(submission)
-  formWrapper.appendChild(contactForm)
+  formBG.appendChild(contactForm)
+  formWrapper.appendChild(formBG)
   contentWrapper.appendChild(formWrapper)
   content.appendChild(contentWrapper)
   loadFooter()
