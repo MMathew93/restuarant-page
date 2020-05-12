@@ -13,11 +13,9 @@ ol[class] {
 
 /* Remove default margin */
 body,
-h1,
 h2,
 h3,
 h4,
-p,
 ul[class],
 ol[class],
 figure,
@@ -76,7 +74,7 @@ select {
 
 a {
   text-decoration: none;
-  color: #308CB0
+  color: #308CB0;
 }
 
 a:hover {
@@ -132,7 +130,7 @@ header > ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative
+  position: relative;
 }
 
 #bar-logo {
@@ -153,7 +151,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 5%;
+  min-height: 6%;
 }
 
 .footer-text {
@@ -168,6 +166,7 @@ footer {
 
 .fab:hover {
   color: #498197;
+  cursor: pointer;
 }
 
 #icon-box {
@@ -197,8 +196,21 @@ footer {
 }
 /*About Module Section */
 
-#aboutSection {
+.aboutSection {
   height: 88%;
   background-color: #112932;
   color: white;
+  text-align: center;
+}
+
+.aboutSection > h1 {
+  font-size: 100px;
+  padding: 150px;
+  margin: 0;
+}
+
+.aboutSection > p { 
+  margin: 0 auto;
+  width: 50%;
+  font-size: 30px;
 }
