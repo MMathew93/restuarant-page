@@ -300,6 +300,8 @@ textarea {
 
 .subMenu {
   margin: 100px;
+  background-color: rgb(26, 26, 26, 0.8);
+  border-radius: 5px;
 }
 
 .subMenu > h1 {
@@ -318,7 +320,6 @@ textarea {
 }
 
 #food {
-  border-right: 5px solid white;
   margin-right: 25px;
 }
 
